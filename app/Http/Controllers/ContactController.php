@@ -13,7 +13,10 @@ class ContactController extends Controller
      */
     public function index()
     {
-        //
+        return '<center>
+        Jl. Gilingrejo No. 10 Salatiga, Jawa Tengah 50743<br>
+        (+62) 298 6031005<br>
+        cs@educastudio.com</center>';
     }
 
     /**

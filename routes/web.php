@@ -54,4 +54,8 @@ Route::get('/www.educastudio.com/about-us', function () {
 });
 
 // 6. Halaman Contact Us menggunakan route resource
-Route::resource('contact', ContactController::class);
+Route::resource('www.educastudio.com/contact-us', ContactController::class);
+
+Route::resource('www.educastudio.com/contact-us', ContactController::class)->only([
+'index', 'create'
+]);
